@@ -1,6 +1,6 @@
 # Hibernate Criteria Project
 
-This project demonstrates the use of Hibernate Criteria API for performing various database operations. The project includes fetching all records, fetching records based on certain conditions, and fetching specific columns using projections.
+This project demonstrates the use of Hibernate Criteria interface for performing various database operations. The project includes fetching all records, fetching records based on certain conditions, and fetching specific columns using projections.
 
 ## Project Structure
 
@@ -9,7 +9,7 @@ This project demonstrates the use of Hibernate Criteria API for performing vario
 
 ## What is Hibernate Criteria?
 
-Hibernate Criteria API is a powerful and flexible way to query the database. It provides a way to build queries programmatically using Java objects and methods, rather than writing SQL queries directly. This makes the code more readable and maintainable.
+Hibernate Criteria interface is a powerful and flexible way to query the database. It provides a way to build queries programmatically using Java objects and methods, rather than writing SQL queries directly. This makes the code more readable and maintainable.
 
 ### Criteria
 
@@ -92,4 +92,4 @@ for(Integer product: products3) {
 
 ## Conclusion
 
-This project demonstrates the basic usage of Hibernate Criteria API for performing various database operations. The Criteria API provides a more flexible and readable way to build queries programmatically.
+This project demonstrates the basic usage of Hibernate Criteria interface for performing various database operations. The Criteria interface provides a more flexible and readable way to build queries programmatically.
