@@ -11,6 +11,23 @@ This project demonstrates the use of Hibernate Criteria API for performing vario
 
 Hibernate Criteria API is a powerful and flexible way to query the database. It provides a way to build queries programmatically using Java objects and methods, rather than writing SQL queries directly. This makes the code more readable and maintainable.
 
+### Criteria
+
+- It is an interface present in the `org.hibernate` package.
+- Provides an object-oriented approach to data retrieval from the database.
+- Allows developers to build database queries programmatically using Java objects and methods rather than writing HQL or SQL strings.
+- Always used to fetch bulk data.
+- Cannot be used for DML or any DDL statements.
+- Implementation is provided by invoking the `createCriteria()` method using the session instance.
+
+### Restrictions
+
+- The `Restrictions` class from the `org.hibernate.criterion` package defines methods used to filter the results, similar to the WHERE clause in SQL.
+
+### Projections
+
+- The `Projections` class from the `org.hibernate.criterion` package defines methods used to filter the results, similar to the SELECT clause in SQL.
+
 ## Operations Performed
 
 ### 1. Fetch All Records
